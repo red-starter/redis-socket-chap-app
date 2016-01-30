@@ -1,0 +1,25 @@
+{
+  "name": "redis_socket_chat",
+  "version": "0.0.1",
+  "description": "chat app with temporary persistence of messages and usersa quick and easy way to chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "es6",
+    "react",
+    "redis",
+    "socketio",
+    "sockets"
+  ],
+  "author": "Mike Sova",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "redis": "^2.4.2",
+    "socket.io": "^1.4.5",
+    "url": "^0.11.0"
+  }
+}
